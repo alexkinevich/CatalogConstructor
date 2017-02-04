@@ -57,3 +57,7 @@ C:\Users\Алексей\Documents\Visual Studio 2015\Projects\CatalogConstructor
 C:\Users\Алексей\Documents\Visual Studio 2015\Projects\CatalogConstructor\CatalogConstructor\obj\Debug\CatalogConstructor.csprojResolveAssemblyReference.cache
 C:\Users\Алексей\Documents\Visual Studio 2015\Projects\CatalogConstructor\CatalogConstructor\obj\Debug\CatalogConstructor.dll
 C:\Users\Алексей\Documents\Visual Studio 2015\Projects\CatalogConstructor\CatalogConstructor\obj\Debug\CatalogConstructor.pdb
+C:\Users\Алексей\Documents\Visual Studio 2015\Projects\CatalogConstructor\CatalogConstructor\bin\EntityFramework.dll
+C:\Users\Алексей\Documents\Visual Studio 2015\Projects\CatalogConstructor\CatalogConstructor\bin\EntityFramework.SqlServer.dll
+C:\Users\Алексей\Documents\Visual Studio 2015\Projects\CatalogConstructor\CatalogConstructor\bin\EntityFramework.xml
+C:\Users\Алексей\Documents\Visual Studio 2015\Projects\CatalogConstructor\CatalogConstructor\bin\EntityFramework.SqlServer.xml

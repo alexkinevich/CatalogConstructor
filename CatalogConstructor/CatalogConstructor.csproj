@@ -44,6 +44,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.0.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -150,7 +158,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Brand\" />
     <Folder Include="Views\ListOfPerfume\" />
     <Folder Include="Views\MenPerfume\" />
@@ -200,12 +207,26 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Brand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ParfumeContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\Salvatore\attimo.jpg" />
+    <Content Include="Content\Images\Bogart\bogart.jpg" />
+    <Content Include="Content\Images\Bogart\chevignon-parfums.jpg" />
+    <Content Include="Content\Images\Armani\code.jpg" />
+    <Content Include="Content\Images\Armani\diamonds.jpg" />
+    <Content Include="Content\Images\Armani\emporio.jpg" />
+    <Content Include="Content\Images\Adidas\ice-dive.jpg" />
+    <Content Include="Content\Images\Salvatore\incanto.jpg" />
+    <Content Include="Content\Images\Adidas\intense-touch.jpg" />
+    <Content Include="Content\Images\Bogart\one-man-show.jpg" />
+    <Content Include="Content\Images\Adidas\team-force.jpg" />
+    <Content Include="Content\Images\Salvatore\tuscan-soul-convivio.jpg" />
     <Content Include="Content\Styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

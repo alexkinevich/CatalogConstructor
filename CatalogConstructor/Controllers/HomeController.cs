@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CatalogConstructor.Models;
+using CatalogConstructor.Repository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +14,15 @@ namespace CatalogConstructor.Controllers
         {
             ViewBag.Title = "Home Page";
 
+            using (ParfumeContext db = new ParfumeContext())
+            {
+                var brands = db.Brands;
+                foreach (Brand brand in brands)
+                {
+                    
+                }
+                ViewBag.Brands = brands;
+            }
             return View();
         }
     }
